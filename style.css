@@ -107,6 +107,7 @@ button{
      border-radius: 16px;
      object-fit: cover;
      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+     /* third section */
 }
 .quote-section{
     padding: 20px 120px;
@@ -120,10 +121,48 @@ button{
     margin-bottom: 10px;
 }
 .quote-section p{
-     border: 2px solid #3882F6;
      display: flex;
      justify-content: flex-end;
      font-weight: bold;
      font-size: 16x;
      padding-right: 80px;
+}
+.about-section{
+     padding: 20px 120px;
+     background-color: #F9FAF8;
+}
+.about{
+    border: 2px solid #3882F6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 30px;
+    background-color: #3882F6;
+    border-radius: 10px;
+}
+.about-section button{
+    border: 2px solid white;
+    width: 100px;
+    height: 30px;
+    background-color: #3882F6;
+    border-radius: 5px;
+    color: #E5E7EB;
+}
+.about-section p{
+    margin-bottom: 5px;
+    margin-top: 0;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+footer{
+    /* border: 2px solid #3882F6; */
+    background-color: #1f2937;
+    text-align: center;
+}
+footer p{
+    /* border: 2px solid #3882F6; */
+    padding: 20px;
+    color: #E5E7EB;
 }
