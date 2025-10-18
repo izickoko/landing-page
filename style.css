@@ -3,7 +3,7 @@ body{
     font-family: 'Roboto', sans-serif;
     flex-direction: column;
     margin: 0;
-    
+    box-sizing: border-box;
 }
 .header{
     background-color: #1f2937;
@@ -94,7 +94,6 @@ button{
     margin-bottom: 150px;
     padding: 20px;
     gap: 20px;
-    box-sizing: border-box;
 }
 .box-1,
 .box-2,
